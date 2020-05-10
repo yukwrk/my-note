@@ -32,6 +32,12 @@ tags: ""
 -   状態（state）を持たず、一切の制御ができない
 -   渡された値に従って特定の固定要素を描画するだけの、単なるプレースホルダ
 
+```js
+const Message = (props) => {
+  return <div>{props.content}</div>
+}
+```
+
 ## props
 
 -   コンポーネントの属性の事
